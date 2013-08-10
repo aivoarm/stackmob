@@ -20,7 +20,3 @@ app.listen(port, function() {
 });
 
 
-$.ajax( { url: "https://api.mongolab.com/api/1/databases/heroku_app17186908/collections/test?apiKey=I0L6PUVzedMBYIxspDN_XnqlTmfDPnIV",
-          data: JSON.stringify( { "x" : 1 } ),
-          type: "POST",
-          contentType: "application/json" } );
